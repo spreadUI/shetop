@@ -1,0 +1,1671 @@
+@charset "utf-8";
+.header .shopName{/*大标题*/
+				width:5.3rem;
+				position:absolute;
+				top:.9rem;
+				left:5.3rem;
+			}
+			.header .manuButton{
+				width:.2rem;
+				position:absolute;
+				right:.6rem;
+				top:.75rem;
+				cursor:pointer;
+				}
+			.header .manuButton div{/*菜单按钮*/
+				width:.2rem;
+				height:.2rem;
+				border-radius:99rem;
+				background-color:white;
+				float:left;
+				margin:.1rem 0;				
+			}
+			.header .menu{/*菜单*/
+				color:white;
+				width:5.35rem;
+				height:4.5rem;
+				background-image:url(images/top_bg.gif);
+				position:absolute;
+				right:0;
+				top:2.75rem;
+				display:none;
+			}
+			.header .menu a{
+				margin-left:.15rem;
+				font-size:.6rem;
+				color:white;
+				float:left;
+				width:5rem;
+				text-align:center;
+				line-height:1.5rem;
+				border-bottom:#686868 1px solid;
+				}
+			.banner{
+				width:100%;
+				height:10.65rem;
+				position:relative;
+				overflow: hidden;
+			}
+			.bannerCenter{/*banner滚动区*/
+				width:300%;
+				height:10.65rem;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.bannerPoint{/*banner滚动内容*/
+				width:33.33%;
+				height:10.65rem;
+				float:left;
+			}
+			.bannerRight{/*banner箭头*/
+				width:.65rem;
+				height:1.15rem;
+				background-image:url("images/arrow.gif");
+				background-repeat:no-repeat;
+				background-size: .65rem 1.15rem;
+				position: absolute;
+				top:4.8rem;
+				right:1rem;
+				cursor:pointer;  
+			}
+			.bannerCount{/*banner白点*/
+				width:.3rem;
+				height:.3rem;
+				border-radius: 5rem;
+				border:1px solid white;
+				position: absolute;
+				bottom:.4rem;
+			}
+			.bannerCount.hl{
+				background-color:white;
+			}
+			.bannerCount.bannerCount0{
+				left:6.9rem;
+			}
+			.bannerCount.bannerCount1{
+				left:7.5rem;
+			}
+			.bannerCount.bannerCount2{
+				left:8.1rem;
+			}
+			.typePoint{/*类型*/
+				float:left;
+				width:33%;
+				margin-top: 1.4rem;
+			}
+			.typeLine{/*间隔线*/
+				float:left;
+				width:1px;
+				height:2.6rem;
+				margin-top: 2rem;
+				background-color: #ff0066;
+				
+			}
+			.typePoint .icon{/*类型图标*/
+				width:2.2rem;
+				height:2.2rem;
+				position: relative;
+				left:1.274rem;
+			}
+			.typePoint .name{/*类型名*/
+				margin-top: .5rem;
+				color: #ff0066;
+				font-size:.5rem;
+				text-align: center;
+			}
+			.goodList{/*商品列表*/
+				margin-top: 1rem;
+				margin-left:.5rem;
+				width:14.7rem;
+				padding-bottom:2.35rem;
+			}
+			.goodPoint{/*商品*/
+				width:14.5rem;
+				border-top: 1px dotted #a4a4a4;
+			}
+			.goodPoint .image{/*商品图*/
+				width:14.65rem;
+				height:11.37rem;
+			}
+			.goodPoint .description{/*商品描述*/
+				font-size: .6rem;
+				font-weight: bolder;
+			}
+			.goodPoint .price{/*现价*/
+				float:left;
+				color:#ff0066;
+				font-size: 1.2rem;
+				margin-top: .6rem;
+			}
+			.goodPoint .costPrice{/*原价*/
+				float:left;
+				color:#6e6e6e;
+				font-size: .5rem;
+				text-decoration: line-through;
+				margin-top: 1.2rem;
+				margin-left:.15rem;
+			}
+			.goodPoint .pay{/*购买按钮*/
+				float:right;
+				width:2.4rem;
+				height:1rem;
+				border-radius: .15rem;
+				color: #fff;
+				background-color: #ff0066;
+				margin-top: .6rem;
+				font-size:.4rem;
+			}
+			.phoneIcon{/*脚部图标*/
+				width:1.35rem;
+				height:1.35rem;
+				position: absolute;
+				top:.5rem;
+				left:5.25rem;
+			}
+			.phoneNumber{/*联系电话*/
+				position: absolute;
+				top:.4rem;
+				left:6.85rem;
+				font-size: .811rem;
+				font-weight: bolder;
+				color:#b3b3b3;
+			}
+			.ICP{/*ICP证*/
+				position: absolute;
+				top:1.5rem;
+				left:6.9rem;
+				font-size: .3rem;
+				color:#b4b4b4;
+			}
+			.nav{/*导航*/
+				width:2.4rem;
+				height:2.4rem;
+				background-image:url(images/niu_00.gif);
+				background-size:2.4rem 2.4rem;
+				position:absolute;
+				left:1.25rem;
+				bottom:1rem;
+				background-color:#0F0
+				}
+			.navPoint{
+				width:1.35rem;
+				height:1.35rem;
+				border-radius:1.35rem;
+				background-size:1.35rem 1.35rem;
+				position:absolute;
+				
+				}
+			.navIndex{
+				background-image:url(images/niu_01.gif);
+				top: .5rem;
+				left: .5rem;
+				display:none}
+			.navShopping{
+				background-image:url(images/niu_04.gif);
+				top: .5rem;
+				left: .5rem;
+				display:none}
+			.navZone{
+				background-image:url(images/niu_05.gif);
+				top: .5rem;
+				left: .5rem;
+				display:none}
+			.navLogistics{
+				background-image:url(images/niu_03.gif);
+				top: .5rem;
+				left: .5rem;
+				display:none}
+			.navAbout{
+				background-image:url(images/niu_02.gif);
+				top: .5rem;
+				left: .5rem;
+				display:none}
+			.footer.default{height:2.35rem;
+				background-color:#282828}
+			.footer.shopping{
+	height:2.15rem;
+	border-top:1px solid #ff0066;
+background-color:#fff;}
+.choose{
+	width:.9rem;
+	height:.9rem;
+	border:1px solid #ff0066;
+	border-radius:.9rem;
+	background-size:.9rem .9rem;
+	}
+.choose_0{
+	background-image:url(images/choose_0.gif)}
+.choose_1{
+	background-image:url(images/choose_1.gif)}
+.footer .choose{
+	float:left;
+	margin-left:.3rem;
+	margin-top:.6rem;
+	}
+.footer .selectAll{
+	float:left;
+font-size: .8rem;
+margin-top: .65rem;
+margin-left: .5rem}
+.footer .countPrice{
+	float:left;
+	font-size:.5rem;
+	margin-top: .8rem;
+	margin-left:.5rem;
+	color:#bfbfbf;
+}
+.footer .totalPrice{
+	float:left;
+	font-size:.8rem;
+	margin-top: .6rem;
+	margin-left:.2rem;
+	color:#ff0066;}
+.goToPay{
+	width:5.3rem;
+	height:1.6rem;
+	background-color:#ff0066;
+	border-radius:1.6rem;
+	color:#FFF;
+	line-height:1.6rem;
+	text-align:center;
+	float:right;
+	margin-top: .3rem;
+	margin-left: .1rem;
+	}
+.headTitle{
+	text-align: center;
+	line-height: 2.75rem;
+	color:#fff;
+	font-weight: bolder;
+}
+.shoppingList{
+	width:100%;
+	background-color:#fff;
+	border-top:1px solid #ff0066;
+	border-bottom:1px solid #ff0066;
+	margin-top:.6rem;
+}
+.shoppingList .listId{
+	float:right;
+	line-height: 1.2rem;
+	margin-right: .5rem;
+	color: #bfbfbf;
+	font-size: .4rem;
+}
+.shoppingList .payTime{
+	float:right;
+	line-height: 1.2rem;
+	margin-right: .5rem;
+	color: #bfbfbf;
+	font-size: .4rem;
+}
+.shoppingListHeadFream{
+	height:1.2rem;
+	border-bottom: 1px solid #ff0066;
+	width:100%;
+}
+.shoppingListfootFream{
+	height:1.55rem;
+	border-top: 1px solid #ff0066;
+	border-bottom: 1px solid #ff0066;
+	width:100%;
+}
+/*修改*/.shoppingListHead{
+	width:14.5rem;
+	height:1.35rem;
+	margin:auto;
+}
+.shoppingListHead .choose{
+	float:left;
+	margin-top: .12rem
+}
+.shoppingListTitle{
+	float:left;
+	color:#ff0066;
+	margin-left:.5rem;
+	line-height:1.2rem;
+	font-size: .8rem
+}
+.shoppingListTap{
+	height:.9rem;
+	line-height: .9rem;
+	color: #fff;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background-color: #ff0066;
+	border-radius: 0 .3rem .3rem 0;
+	margin-top:.5rem;
+	font-size: .7rem;
+	float: left;
+}
+.shoppingPoint{
+	width:14.5rem;
+	height:4.3rem;
+	border-bottom:1px solid #ff0066;
+	margin:auto;
+	padding-top:.5rem;
+	position: relative;
+}
+.shoppingPoint.last{
+	border-bottom: 0px;
+}
+.shoppingPoint .choose{
+	float:left;
+	margin-top: 1.3rem
+}
+.shoppingPointIcon{
+	width:3.3rem;
+	height:3.3rem;
+	border-radius:.2rem;
+	border:1px solid #ff0066;
+	float:left;
+	margin-top:.1rem;
+	margin-left:.5rem;
+}
+.shoppingPointRight{
+	float: left;
+	width: 9rem;
+	font-size: .6rem;
+	margin-left: .5rem;
+}
+.shoppingPointTitle{
+	line-height: .8rem;
+	font-weight: bolder;
+}
+/*修改*/.shoppingPointRight .shoppingPointType,.shoppingPointRight .shoppingPointSize{
+	font-size:.4rem;
+	color:#bdbdbd;
+}
+/*修改*/.shoppingPointPrice{
+	float:left;
+	margin-top:.25rem;
+	color:#ff0066; 
+}
+.shoppingPointRemove{
+	width:.9rem;
+	height:.9rem;
+	position: absolute;
+	top:1.3rem;
+	right:-.8rem;
+}
+/*修改*/.shoppingPointCostPrice{
+	float:left;
+	margin-top: .3rem;
+	margin-left: .5rem;
+	text-decoration:line-through;
+	color:#bdbdbd;
+	font-size: .5rem
+}
+.shoppingPointCount{
+	width:3.15rem;
+	height:1.1rem;
+	border:1px solid #ff0066;
+	position:absolute;
+	right:.2rem;
+	bottom:.2rem;
+}
+.shoppingPointAdd{
+	width:33%;
+	height:100%;
+	line-height: 1.1rem;
+	text-align: center;
+	color:#ff0066;
+	float:left;
+}
+.shoppingPointNum{
+	width:33%;
+	height:100%;
+	line-height: 1.1rem;
+	text-align: center;
+	float: left;
+	border-left: 1px solid #ff0066;
+	border-right:1px solid #ff0066;
+}
+.shoppingPointSub{
+	width:33%;
+	height:100%;
+	line-height: 1.1rem;
+	text-align: center;
+	color:#ff0066;
+	float: left;
+}
+.messagePoint{
+	width:13.1rem;
+	height:1.05rem;
+	margin: auto;
+	margin-top: .5rem;
+}
+.messageLabel{
+	font-size: .5rem;
+	width:2.55rem;
+	font-weight: bolder;
+	float:left;
+}
+.messageMeain{
+	margin-left:.5rem;
+	width:10.05rem;
+	float:left;
+}
+.messageSelect{
+	width:2.725rem;
+	height:1.05rem;
+	position: relative;
+	border:1px solid #d5d5d5;
+	border-radius: .25rem;
+	float:left;
+	color:#d5d5d5;
+	font-size: .5rem;
+}
+.messageSelectLabel{
+	float:left;
+	width:66%;
+	height:1.05rem;
+	line-height: 1.05rem;
+	text-align: center;
+	border-right: 1px solid #d5d5d5
+}
+.messageSelectButton{
+	float:left;
+	width:33%;
+	height:1.05rem;
+	line-height: 1.05rem;
+	text-align: center;
+}
+.messageSelect select{
+	width:2.725rem;
+	height:1.05rem;
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 99;
+	opacity: 0;
+}
+.messageWord{
+	float: left;
+	font-size: .5rem;
+	margin-top: .2rem;
+}
+.messageListTitle{
+	width:13.1rem;
+	margin: auto;
+	font-weight: bolder;
+	margin-top: .5rem;
+	font-size:.5rem;
+}
+.inputM{width:5rem;
+height:1.05rem;
+border:1px solid #d5d5d5;
+line-height:1.05rem;
+text-align: center;
+border-radius: .3rem}
+.inputL{width:10.05rem;
+height:1.05rem;
+border:1px solid #d5d5d5;
+line-height:1.05rem;
+text-align: center;
+border-radius: .3rem}
+.doubleGoodList{
+	width:14.67rem;
+	height:11.5rem;
+	margin: auto;
+	margin-top: .5rem;
+}
+.doubleGoodPoint{
+	width:50%;
+	height:11.5rem;
+	border-bottom:1px dotted #d5d5d5;
+	float:left;
+}
+.doubleGoodPoint.even{
+	border-right:1px dotted #d5d5d5;
+}
+.doubleGoodImage{
+	width:100%;
+	height:7.3rem;
+}
+.doubleGoodName{
+	font-weight:bolder;
+	font-size: .6rem;
+	margin-top: .5rem;
+	line-height: .8rem
+}
+.doubleGoodPrice{
+	float: left;
+	margin-top: .9rem;
+	color:#ff0066;
+	font-size: .8rem;
+}
+.doubleGoodCostPrice{
+	float:left;
+	margin-top: 1.1rem;
+	color:#d5d5d5;
+	text-decoration: line-through;
+	font-size: .5rem;
+}
+.doubleGoodPay{
+	width:2.8rem;
+	height:1.15rem;
+	border-radius:.15rem;
+	color:#fff;
+	background-color: #ff0066;
+	text-align: center;
+	line-height: 1.15rem;
+	float: right;
+	margin-top: .5rem;
+	margin-right: .3rem;
+	font-size: .4rem
+}
+.secondNavBar{
+	width:100%;
+	height:1.6rem;
+	background-color: #292929;
+	color:#fff;
+}
+.secondNav{
+	width:25%;
+	height:.5rem;
+	float: left;
+	margin-top: .6rem;
+	font-size:.5rem;
+	font-weight: bolder;
+	position: relative;
+}
+.secondNav.sv,.secondNav.pr,.secondNav.ty{
+	border-right: 1px solid #fff;
+}
+.secondNavIcon{
+	height:.5rem;
+	width:.2rem;
+	float: left;
+	margin-left: 1rem
+}
+.secondNavName{
+	float:left;
+	margin-left: .5rem
+}
+.secondNavTitle{
+	text-align: center;
+}
+.secondNavMenu{
+	width:100%;
+	background-color: #292929;
+	position: absolute;
+	top:.5rem;
+	left:0rem;
+	z-index: 99;
+	color: #ff0066;
+	display: none;
+}
+.secondNavOption{
+	width:90%;
+	height:1rem;
+	line-height: 1rem;
+	text-align: center;
+	margin: auto;
+	border-bottom: 1px solid #3c3c3c
+}
+.footCountPay{
+	float:left;
+	line-height: 1.55rem;
+	color: #d5d5d5;
+	font-size:.6rem;
+}
+.footTotalPay{
+	float:left;
+	line-height: 1.55rem;
+	color:#ff0066;
+	font-size: .8rem;
+	margin-left: .5rem
+}
+.footPayButton{
+	float:right;
+	width:2.5rem;
+	height:1.15rem;
+	background-color: #ff0066;
+	margin-right: .5rem;
+	color: #fff;
+	border-radius: .3rem;
+	text-align: center;
+	line-height: 1.15rem;
+	margin-top: .1rem;
+	font-size: .6rem
+}
+.footCancelButton{
+	float:right;
+	width:2.5rem;
+	height:1.15rem;
+	background-color: #ff0066;
+	margin-right: .5rem;
+	color: #fff;
+	border-radius: .3rem;
+	text-align: center;
+	line-height: 1.15rem;
+	margin-top: .1rem;
+	font-size: .6rem
+}
+.placeList{
+	width:100%;
+	border-top:1px solid #ff0066;
+	margin-top: .5rem;
+	background-color: #fff;
+}
+.placePoint{
+	width:100%;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #ff0066;
+}
+.placePoint .choose{
+	float:left;
+	margin-left: 1rem;
+}
+.placePoint .defaultPlace{
+	float: left;
+	margin-left: .5rem;
+	font-weight: bold;
+	font-size: .8rem;
+}
+.placePoint .placeName{
+	float: left;
+	margin-top: .3rem;
+	margin-left: 1rem;
+	font-size: .6rem
+}
+.placePoint .placePhone{
+	float: left;
+	margin-top: .3rem;
+	margin-left: 1rem;
+	font-size: .6rem
+}
+.placePoint .placeDetail{
+	font-size: .6rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-top: .3rem;
+}
+.companyPoint{
+	width:100%;
+}
+.companyHead{
+	width:100%;
+	height:2.15rem;
+	background-color: #fff;
+	border-bottom: 1px solid #eeeeee
+}
+.companyTitle{
+	float: left;
+	margin-left: 1rem;
+	line-height: 2.15rem;
+	font-size:.8rem;
+}
+.companyEn{
+	float: left;
+	margin-left: .5rem;
+	line-height: 2.15rem;
+	font-size: .8rem;
+}
+.companyToggle{
+	float:right;
+	margin-right: .5rem;
+	line-height: 2.15rem;
+	color: #cacacf
+}
+.companyBottom{
+	padding: .5rem 1rem;
+	background-color: #eeeeee;
+	font-size: .5rem;
+	line-height: .8rem;
+	display: none;
+}
+.goodDetailBanner{
+				width:100%;
+				height:12.4rem;
+				position:relative;
+				overflow: hidden;
+			}
+			.goodDetailBannerCenter{/*banner滚动区*/
+				width:400%;
+				height:12.4rem;
+				position:absolute;
+				top:0px;
+				left:0px;
+			}
+			.goodDetailBannerPoint{/*banner滚动内容*/
+				width:25%;
+				height:12.4rem;
+				float:left;
+			}
+			.goodDetailBannerRight{/*banner箭头*/
+				width:.65rem;
+				height:1.15rem;
+				background-image:url("images/arrow.gif");
+				background-repeat:no-repeat;
+				background-size: .65rem 1.15rem;
+				position: absolute;
+				top:4.8rem;
+				right:1rem;
+				cursor:pointer;  
+			}
+			.goodDetailBannerCount{/*banner白点*/
+				width:.3rem;
+				height:.3rem;
+				border-radius: 5rem;
+				border:1px solid white;
+				position: absolute;
+				bottom:.4rem;
+			}
+			.goodDetailBannerCount.hl{background-color:white;}
+			.goodDetailBannerCount.goodDetailBannerCount0{
+				left:6.9rem;
+				
+			}
+			.goodDetailBannerCount.goodDetailBannerCount1{
+				left:7.5rem;
+			}
+			.goodDetailBannerCount.goodDetailBannerCount2{
+				left:8.1rem;
+			}
+			.goodDetailBannerCount.goodDetailBannerCount3{
+				left:8.8rem;
+			}
+			.goodDetailName{
+				height:2rem;
+				line-height: 2rem;
+				text-indent: 1rem;
+				border-top: 1px solid #d5d5d5;
+				font-size: .8rem
+			}
+			.goodDetailbottom{
+				height:2rem;
+				line-height: 2rem;
+				border-top: 1px solid #d5d5d5;
+				font-size: .8rem;
+				border-bottom: 1px solid #d5d5d5;
+			}
+			.goodDetailPrice{
+				float: left;
+				line-height: 2rem;
+				color: #ff0066;
+				margin-left: 1rem;
+				font-size: 1.2rem
+			}
+			.goodDetailCountPrice{
+				float: right;
+				color: #d5d5d5;
+				margin-right: 1rem;
+				margin-top: .3rem;
+				text-decoration: line-through;;
+				font-size: .5rem
+			}
+			.goodDetailAttrList{
+				padding: 1rem;
+				background-color: #fff;
+				margin-top: 1rem;
+			}
+			.goodDetailAttrPoint{
+				margin-bottom: .5rem;
+				width:100%;
+			}
+			.goodDetailAttrLeft{
+				float:left;
+				margin-top:.3rem;
+				width:3.3rem;
+				font-size: .7rem
+			}
+			.goodDetailAttrRight{
+				float:left;
+				width:9.3rem;
+			}
+			.goodDetailAttrColor{
+				width:1.25rem;
+				height: 1.25rem;
+				border-radius: 1.25rem;
+				border:1px solid #fff;
+				float: left;
+				margin-right: .5rem
+			}
+			.goodDetailAttrColor.hl{
+				border:1px solid #ff0066;
+			}
+			.goodDetailAttrColorPoint{
+				width: .9rem;
+				height: .9rem;
+				border-radius: .9rem;
+				position: relative;
+				top: .15rem;
+				margin: auto;
+			}
+			.goodDetailAttrSize{
+				width:2.3rem;
+				height:.95rem;
+				border:1px solid #d5d5d5;
+				line-height: .95rem;
+				text-align: center;
+				font-size: .6rem;
+				float: left;
+				margin-right: .5rem;
+				border-radius: .95rem;
+				margin-top: .3rem
+			}
+			.goodDetailAttrSize.hl{
+				background-color: #ff0066;
+				color: #fff;
+			}
+			.goodDetailAttrAdd{
+				float: left;
+				width:1.1rem;
+				height:1.1rem;
+				border:1px solid #d5d5d5;
+				line-height: 1.1rem;
+				text-align: center;
+				border-radius: 1.1rem 0 0 1.1rem;
+				margin-top: .2rem
+			}
+			.goodDetailAttrCount{
+				float: left;
+				width:1.3rem;
+				height:1.1rem;
+				border-top:1px solid #d5d5d5;
+				border-bottom:1px solid #d5d5d5;
+				line-height: 1.1rem;
+				font-size: .6rem;
+				text-align: center;
+				margin-top: .2rem
+			}
+			.goodDetailAttrSub{
+				float: left;
+				width:1.1rem;
+				height:1.1rem;
+				border:1px solid #d5d5d5;
+				line-height: 1.1rem;
+				text-align: center;
+				border-radius: 0 1.1rem 1.1rem 0;
+				margin-top: .2rem
+			}
+
+			.centerHead{
+				width:100%;
+			}
+			.centerIcon{
+				width:4rem;
+				height:4rem;
+				border-radius: 4rem;
+				margin: auto;
+				margin-top:2rem;
+			}
+			.centerName{
+				text-align: center;
+				margin-top: 2rem;
+			}
+/*修改*/			.centerTapArea{
+				border:1px solid #ff0066;
+				border-radius: .3rem;
+				height:1.5rem;
+				width:13rem;
+				margin: auto;
+				margin-top:2rem;
+				font-size: .8rem;
+				text-align: center;
+				line-height: 1.5rem;
+				overflow:hidden;
+			}
+/*修改*/				.centerTap{
+				height:100%;
+				float: left;
+				width:33.3333%;
+			}
+			.centerTap.hl{
+				background-color: #ff0066;
+				color: #fff;
+			}
+			.centerTap.place{
+				border-left: 1px solid #ff0066;
+				border-right: 1px solid #ff0066;
+			}
+			.centerBottom{
+				width:100%;
+			}
+			.header{/*大标题*/
+				font-size:.9rem;
+				color:white;
+				text-align:center;
+				line-height:2.75rem;
+			}
+		
+		/*登录*/	
+		.login_input{
+			border:solid 1px #bfbfbf;
+			border-radius:.215rem;
+			width:9.2745rem;
+			height:1.525rem;
+			margin-left:.75rem;
+			margin-top:.5rem;
+			font-size:.6rem;
+			color:#919191;
+			float:left;
+			}
+			
+		.login_botton{
+			width:4.7rem;
+			height:1.525rem;
+			background-color:#ff0066;
+			border-radius:.215rem;
+			float:left;
+			color:white;
+			font-size:.6rem;
+			margin-top:.5rem;
+			margin-left:.5rem;
+			}
+			
+		.login_input01{
+			width:14.5rem;
+			height:1.525rem;
+			border:1px solid #bfbfbf;
+			border-radius:.215rem;
+			margin-left:.75rem;
+			margin-top:.5rem;
+			font-size:.6rem;
+			float:left;
+			color:#919191;
+			}
+			
+		.recip{
+			text-align:right;
+			font-size:.5rem;
+			color:#919191;
+			margin-top:4.6rem;
+			margin-right:.75rem;
+			}
+			
+		.login_botton01{
+			width:7.5rem;
+			height:1.5rem;
+			background-color:#ff0066;
+			border-radius:.215rem;
+			font-size:.75rem;
+			color:white;
+			margin-left:4.25rem;
+			margin-top:1.3rem;
+			}
+		
+		.zheng{
+			width:16rem;
+			}
+		
+/*修改*/		.zheng img{
+			float:left;
+			width:3.35rem;
+			height:3.35rem;
+			margin:0 .99rem;
+			margin-top:30%;
+			}
+		
+		/*品牌速递*/
+		.sudi{
+			padding-bottom:2.25rem;
+			}
+			
+		.sudi img{
+			width:100%;
+			height:11.3rem;
+			margin-bottom:.2rem;
+			}
+			.goodDetailPic{
+				width:100%;
+				margin-top: .5rem;
+			}
+			.messageList .choose{
+				float:left;
+				margin-top: .5rem;
+				margin-left: 1.5rem;
+			}
+			.messageList .messageBottomWord{
+				float:left;
+				margin-top: .7rem;
+				margin-left: .5rem;
+				font-size: .6rem;
+			}
+			.messageSendButton{
+				width:6rem;
+				height:1.7rem;
+				background-color: #ff0066;
+				color: #fff;
+				text-align: center;
+				line-height: 1.7rem;
+				border-radius: .5rem;
+				margin: auto;
+				margin-top: 1rem;
+			}
+.shoppingListFootFream{
+	width:100%;
+	height:1.55rem;
+	border-top: 1px solid #ff0066;
+
+	margin-top: 2px
+}
+/*********************************************************************************************************************//*横屏*/
+			
+			.landscape .header .shopName{
+				left:13rem;
+			}
+			.landscape .header .menu{/*菜单*/
+				width:10.7rem;
+				height:9rem;
+			}
+			.landscape .header .menu a{
+				margin-left:.3rem;
+				font-size:1.2rem;
+				color:white;
+				float:left;
+				width:10rem;
+				line-height:3rem;
+				}
+			.landscape .banner{
+				height:21.4rem;
+			}
+			.landscape .bannerCenter{
+				height:21.4rem;
+			}
+			.landscape .bannerPoint{
+				height:21.4rem;
+			}
+			.landscape .bannerRight{
+				top:9.6rem;
+				width:1.3rem;
+				height:2.3rem;
+				background-size: 1.3rem 2.3rem;
+			}
+			.landscape .bannerCount{
+				width:.6rem;
+				height:.6rem;
+				border-radius: 1rem;
+				bottom:.8rem;
+			}
+			.landscape .bannerCount.bannerCount0{
+				left:13.8rem;
+			}
+			.landscape .bannerCount.bannerCount1{
+				left:15rem;
+			}
+			.landscape .bannerCount.bannerCount2{
+				left:16.2rem;
+			}
+			.landscape .typePoint{
+				margin-top: 2.8rem;
+			}
+			.landscape .typeLine{
+				height:5.2rem;
+				margin-top: 4rem;			
+			}
+			.landscape .typePoint .icon{
+				width:4.4rem;
+				height:4.4rem;
+				left:2.7rem;
+			}
+			.landscape .typePoint .name{
+				margin-top: .5rem;
+				color: #ff0066;
+				text-align: center;
+				font-size: 1rem;
+			}
+			.landscape .goodList{
+				margin-top: 2rem;
+				margin-left:1.2rem;
+			}
+			.landscape .goodPoint{
+				width:29rem;
+			}
+			.landscape .goodPoint .image{
+				width:29.3rem;
+
+				height:22.74rem;
+			}
+			.landscape .goodPoint .description{
+				font-size: 1.2rem;
+				text-align: center;
+				font-weight: bolder;
+			}
+			.landscape .goodPoint .price{
+				float:left;
+				color:#ff0066;
+				font-size: 2.6rem;
+				margin-top: 1rem;
+			}
+			.landscape .goodPoint .costPrice{
+				float:left;
+				color:#6e6e6e;
+				font-size: 1rem;
+				text-decoration: line-through;
+				margin-top: 2.4rem;
+			}
+			.landscape .goodPoint .pay{
+				float:right;
+				width:4.8rem;
+				height:2rem;
+				border-radius: .3rem;
+				color: #fff;
+				background-color: #ff0066;
+				margin-top: 1.2rem;
+				font-size:.8rem;
+			}
+			.landscape .phoneIcon{
+				left:13rem;
+			}
+			.landscape .phoneNumber{
+				left:15rem;
+			}
+			.landscape .ICP{
+				position: absolute;
+				left:15rem;
+			}
+			.landscape .footer.shopping{
+	height:4.3rem;
+}
+.landscape .choose{
+	width:1.8rem;
+	height:1.8rem;
+	border:1px solid #ff0066;
+	border-radius:1.8rem;
+	background-size:1.8rem 1.8rem
+	}
+.landscape .footer .choose{
+	margin-left:.6rem;
+	margin-top:1.2rem;
+	}
+.landscape .footer .selectAll{
+	float:left;
+font-size: 1.6rem;
+margin-top: 1.3rem;
+margin-left: 1rem}
+.landscape .footer .countPrice{
+	font-size:1rem;
+	margin-top: 1.6rem;
+	margin-left:1rem;
+}
+.landscape .footer .totalPrice{
+	font-size:1.6rem;
+	margin-top: 1.2rem;
+	margin-left:.4rem;
+}
+.landscape .goToPay{
+	width:10.6rem;
+	height:3.2rem;
+	border-radius:3.2rem;
+	line-height:3.2rem;
+	margin-top: .3rem;
+	margin-left: .1rem;
+	}
+.landscape .headTitle{
+	line-height: 2.75rem;
+}
+.landscape .shoppingList{
+	margin-top:1.2rem;
+}
+.landscape .shoppingList .listId{
+	line-height: 2.4rem;
+	margin-right: 1rem;
+	font-size: .8rem;
+}
+.landscape .shoppingList .payTime{
+	line-height: 2.4rem;
+	margin-right: 1rem;
+	font-size: .8rem;
+}
+.landscape .shoppingListHeadFream{
+	height:2.4rem;
+}
+.landscape .shoppingListfootFream{
+	height:3.1rem;
+}
+/*修改*/.landscape .shoppingListHead{
+	width:29rem;
+	height:2.7rem;
+}
+.landscape .shoppingListHead .choose{
+	margin-top: .24rem
+}
+.landscape .shoppingListTitle{
+	margin-left:1rem;
+	line-height:2.4rem;
+	font-size: 1.6rem
+}
+.landscape .shoppingListTap{
+	height:1.8rem;
+	line-height: 1.8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 0 .6rem .6rem 0;
+	margin-top:1rem;
+	font-size: 1.4rem;
+}
+.landscape .shoppingPoint{
+	width:29rem;
+	height:8.6rem;
+	padding-top:1rem;
+}
+.landscape .shoppingPoint .choose{
+	margin-top: 2.6rem
+}
+.landscape .shoppingPointIcon{
+	width:6.6rem;
+	height:6.6rem;
+	border-radius:.4rem;
+	margin-top:.2rem;
+	margin-left:1rem;
+}
+.landscape .shoppingPointRight{
+	width: 18rem;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+.landscape .shoppingPointTitle{
+	line-height: 1.6rem;
+}
+/*修改*/.landscape .shoppingPointType,.landscape .shoppingPointSize{
+	font-size: .8rem;
+}
+/*修改*/.landscape .shoppingPointPrice{
+	margin-top: .5rem;
+}
+.landscape .shoppingPointRemove{
+	width:1.8rem;
+	height:1.8rem;
+	top:2.6rem;
+	right:-1.6rem;
+}
+/*修改*/.landscape .shoppingPointCostPrice{
+	margin-top: .6rem;
+	margin-left: 1rem;
+	font-size: 1rem
+}
+.landscape .shoppingPointCount{
+	width:6.3rem;
+	height:2.2rem;
+	right:.4rem;
+	bottom:.4rem;
+}
+.landscape .shoppingPointAdd{
+	line-height: 2.2rem;
+}
+.landscape .shoppingPointNum{
+	line-height: 2.2rem;
+}
+.landscape .shoppingPointSub{
+	line-height: 2.2rem;
+}
+.landscape .messagePoint{
+	width:26.2rem;
+	height:2.1rem;
+	margin-top: 1rem;
+}
+.landscape .messageLabel{
+	font-size: 1rem;
+	width:5.1rem;
+}
+.landscape .messageMeain{
+	margin-left:1rem;
+	width:20.1rem;
+}
+.landscape .messageSelect{
+	width:5.45rem;
+	height:2.1rem;
+	border-radius: .5rem;
+	font-size: 1rem;
+}
+.landscape .messageSelectLabel{
+	height:2.1rem;
+	line-height: 2.1rem;
+}
+.landscape .messageSelectButton{
+	height:2.1rem;
+	line-height: 2.1rem;
+}
+.landscape .messageSelect select{
+	width:5.45rem;
+	height:2.1rem;
+}
+.landscape .messageWord{
+	font-size: 1rem;
+	margin-top: .4rem;
+}
+.landscape .messageListTitle{
+	width:26.2rem;
+	margin-top: 1rem;
+	font-size:1rem;
+}
+.landscape .inputM{width:10rem;
+height:2.1rem;
+line-height:2.1rem;
+border-radius: .6rem}
+.landscape .inputL{width:20.1rem;
+height:2.1rem;
+line-height:2.1rem;
+border-radius: .6rem}
+.landscape .doubleGoodList{
+	width:29.34rem;
+	height:23rem;
+	margin-top: 1rem;
+}
+.landscape .doubleGoodPoint{
+	height:23rem;
+}
+.landscape .doubleGoodImage{
+	height:14.6rem;
+}
+.landscape .doubleGoodName{
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	line-height: 1.6rem
+}
+.landscape .doubleGoodPrice{
+	margin-top: 1.8rem;
+	font-size: 1.6rem;
+}
+.landscape .doubleGoodCostPrice{
+	margin-top: 2.2rem;
+	font-size: 1rem;
+}
+.landscape .doubleGoodPay{
+	width:5.6rem;
+	height:2.3rem;
+	border-radius:.3rem;
+	line-height: 2.3rem;
+	margin-top: 1rem;
+	margin-right: .6rem;
+	font-size: .8rem
+}
+.landscape .secondNavBar{
+	height:3.2rem;
+}
+.landscape .secondNav{
+	height:1rem;
+	margin-top: 1.2rem;
+	font-size:1rem;
+}
+.landscape .secondNavIcon{
+	height:1rem;
+	width:.4rem;
+	margin-left: 2rem
+}
+.landscape .secondNavName{
+	margin-left: 1rem
+}
+.landscape .secondNavMenu{
+	top:1rem;
+	left:0rem;
+}
+.landscape .secondNavOption{
+	height:2rem;
+	line-height: 2rem;
+}
+.landscape .footCountPay{
+	line-height: 3.1rem;
+	font-size:1.2rem;
+}
+.landscape .footTotalPay{
+	line-height: 3.1rem;
+	font-size: 1.6rem;
+	margin-left: 1rem
+}
+.landscape .footPayButton{
+	width:5rem;
+	height:2.3rem;
+	margin-right: 1rem;
+	border-radius: .6rem;
+	line-height: 2.3rem;
+	margin-top: .2rem;
+	font-size: 1.2rem
+}
+.landscape .footCancelButton{
+	width:5rem;
+	height:2.3rem;
+	margin-right: 1rem;
+	border-radius: .6rem;
+	line-height: 2.3rem;
+	margin-top: .2rem;
+	font-size: 1.2rem
+}
+.landscape .placeList{
+	margin-top: 1rem;
+}
+.landscape .placePoint{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.landscape .placePoint .choose{
+	margin-left: 2rem;
+}
+.landscape .placePoint .defaultPlace{
+	margin-left: 1rem;
+	font-weight: bold;
+	font-size: 1.6rem;
+}
+.landscape .placePoint .placeName{
+	margin-top: .6rem;
+	margin-left: 2rem;
+	font-size: 1.2rem
+}
+.landscape .placePoint .placePhone{
+	margin-top: .6rem;
+	margin-left: 2rem;
+	font-size: 1.2rem
+}
+.landscape .placePoint .placeDetail{
+	font-size: 1.2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-top: .6rem;
+}
+.landscape .companyHead{
+	height:4.3rem;
+}
+.landscape .companyTitle{
+	margin-left: 2rem;
+	line-height: 4.3rem;
+	font-size:1.6rem;
+}
+.landscape .companyEn{
+	margin-left: 1rem;
+	line-height: 4.3rem;
+	font-size: 1.6rem;
+}
+.landscape .companyToggle{
+	margin-right: 1rem;
+	line-height: 4.3rem;
+}
+.landscape .companyBottom{
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+.landscape .goodDetailBanner{
+				height:24.8rem;
+			}
+			.landscape .goodDetailBannerCenter{/*banner滚动区*/
+				height:24.8rem;
+			}
+			.landscape .goodDetailBannerPoint{/*banner滚动内容*/
+				height:24.8rem;
+			}
+			.landscape .goodDetailBannerRight{/*banner箭头*/
+				width:13rem;
+				height:2.3rem;
+				background-size: 1.3rem 2.3rem;
+				top:9.6rem;
+				right:2rem;
+			}
+			.landscape .goodDetailBannerCount{/*banner白点*/
+				width:.6rem;
+				height:.6rem;
+				border-radius: 10rem;
+				bottom:.8rem;
+			}
+			.landscape .goodDetailBannerCount.goodDetailBannerCount0{
+				left:13.8rem;
+			}
+			.landscape .goodDetailBannerCount.goodDetailBannerCount1{
+				left:15rem;
+			}
+			.landscape .goodDetailBannerCount.goodDetailBannerCount2{
+				left:16.2rem;
+			}
+			.landscape .goodDetailBannerCount.goodDetailBannerCount3{
+				left:17.6rem;
+			}
+			.landscape .goodDetailName{
+				height:4rem;
+				line-height: 4rem;
+				text-indent: 2rem;
+				font-size: 1.6rem
+			}
+			.landscape .goodDetailbottom{
+				height:4rem;
+				line-height: 4rem;
+				font-size: 1.6rem;
+			}
+			.landscape .goodDetailPrice{
+				line-height: 4rem;
+				margin-left: 2rem;
+				font-size: 2.4rem
+			}
+			.landscape .goodDetailCountPrice{
+				margin-right: 2rem;
+				margin-top: .6rem;
+				font-size: 1rem
+			}
+			.landscape .goodDetailAttrList{
+				padding: 2rem;
+				margin-top: 2rem;
+			}
+			.landscape .goodDetailAttrPoint{
+				margin-bottom: 1rem;
+			}
+			.landscape .goodDetailAttrLeft{
+				margin-top:.6rem;
+				width:6.6rem;
+				font-size: 1.4rem
+			}
+			.landscape .goodDetailAttrRight{
+				width:18.6rem;
+			}
+			.landscape .goodDetailAttrColor{
+				width:2.5rem;
+				height: 2.5rem;
+				border-radius: 2.5rem;
+				margin-right: 1rem
+			}
+			.landscape .goodDetailAttrColorPoint{
+				width: 1.8rem;
+				height: 1.8rem;
+				border-radius: 1.8rem;
+				top: .3rem;
+			}
+			.landscape .goodDetailAttrSize{
+				width:4.6rem;
+				height:1.9rem;
+				line-height: 1.9rem;
+				font-size: 1.2rem;
+				margin-right: 1rem;
+				border-radius: 1.9rem;
+				margin-top: .6rem
+			}
+			.landscape .goodDetailAttrAdd{
+				width:2.2rem;
+				height:2.2rem;
+				line-height: 2.2rem;
+				text-align: center;
+				border-radius: 2.2rem 0 0 2.2rem;
+				margin-top: .4rem
+			}
+			.landscape .goodDetailAttrCount{
+				width:2.6rem;
+				height:2.2rem;
+				line-height: 2.2rem;
+				font-size: 1.2rem;
+				margin-top: .4rem
+			}
+			.landscape .goodDetailAttrSub{
+				width:2.2rem;
+				height:2.2rem;
+				line-height: 2.2rem;
+				border-radius: 0 2.2rem 2.2rem 0;
+				margin-top: .4rem
+			}
+			/*登录*/	
+			.landscape .login_input{
+			border-radius:.43rem;
+			width:18.549rem;
+			height:3.05rem;
+			margin-left:1.5rem;
+			margin-top:1rem;
+			font-size:1.2rem;
+			}
+			
+			.landscape .login_botton{
+			width:9.4rem;
+			height:3.05rem;
+			border-radius:.43rem;
+			font-size:1.2rem;
+			margin-top:1rem;
+			margin-left:1rem;
+			}
+			
+			.landscape .login_input01{
+			width:29rem;
+			height:3.05rem;
+			border-radius:.43rem;
+			margin-left:1.5rem;
+			margin-top:1rem;
+			font-size:1.2rem;
+			}
+			
+			.landscape .recip{
+			font-size:1rem;
+			margin-top:9.2rem;
+			margin-right:1.5rem;
+			}
+			
+			.landscape .login_botton01{
+			width:15rem;
+			height:3rem;
+			border-radius:.43rem;
+			font-size:1.5rem;
+			margin-left:8.5rem;
+			margin-top:2.6rem;
+			}
+			
+			.landscape .zheng{
+			width:32rem;
+			}
+			
+			.landscape .zheng img{
+			width:6.7rem;
+			height:6.7rem;
+			margin:0 1.98rem;
+			margin-top:19.6rem;
+			}
+			
+			/*品牌速递*/
+			.landscape .sudi img{
+			height:22.6rem;
+			margin-bottom:.4rem;
+			}
+			.landscape .centerIcon{
+				width:8rem;
+				height:8rem;
+				border-radius: 8rem;
+				margin-top:4rem;
+			}
+			.landscape .centerName{
+				margin-top: 4rem;
+			}
+/*修改*/			.landscape .centerTapArea{
+				border-radius: .6rem;
+				height:3rem;
+				width:26rem;
+				margin-top:4rem;
+				font-size: 1.6rem;
+				line-height: 3rem;
+				overflow:hidden;
+			}
